@@ -1,50 +1,29 @@
-# Diretrizes GitFlow
+# Comandos Git
 
-## main
+## Inicialização
 
-Branch de produção.
+### git init
 
-## develop
+Cria um repositório Git.
 
-Branch de desenvolvimento.
-
-## feature
-
-Utilizada para novas funcionalidades.
-
-Exemplo:
-
-```text
-feature/checkin-digital
+```bash
+git init
 ```
 
-## release
-
-Utilizada para preparação de versões.
-
-Exemplo:
-
-```text
-release/1.0.0
+```bash
+git init projeto
 ```
 
-## hotfix
+---
 
-Utilizada para correções urgentes.
+### git clone
 
-Exemplo:
+Clona um repositório.
 
-```text
-hotfix/correcao-qrcode
+```bash
+git clone URL
 ```
 
-## Fluxo executado
-
-1. Criação do repositório
-2. Criação da develop
-3. Desenvolvimento da feature
-4. Merge da feature
-5. Criação da release
-6. Publicação da versão 1.0.0
-7. Correção via hotfix
-8. Merge do hotfix
+```bash
+git clone URL projeto
+```
